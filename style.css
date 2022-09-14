@@ -387,6 +387,8 @@ section .title::after{
 .btn-mais-detalhes{
     margin: auto auto 2rem;
 }
+
+
 /*  sessão Contato  */
 .contact .title::after{
     content: "Fale comigo!";
@@ -477,9 +479,12 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .contact .rigth form .button button:hover{
-    color: #00804b;
+    color: #20704d;
     background: none;
 }
+
+
+
 
 /*  sessão footer  */
 footer{
@@ -489,7 +494,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: #00804b;
+    color: #37a870;
     text-decoration: none;
 }
 footer span a:hover{
@@ -529,7 +534,7 @@ footer span a:hover{
         height: 100vh;
         left: -100%;
         top: 0;
-        background: #111;
+        background: rgb(29, 129, 37);
         padding-top: 80px;
         text-align: center;
         transition: all 0.3s ease;
@@ -600,4 +605,9 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+
+    
+   
+
+    
 }
