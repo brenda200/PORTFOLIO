@@ -2,7 +2,8 @@
 require 'mailer/PHPMailerAutoload.php';
 
 if (isset($_POST['nome']) && !empty($_POST['nome'])) {
-    $nome= $_POST['nome'],
+    $nome = $_POST['nome'],
+
 }
 
 if (isset($_POST['email']) && !empty($_POST['email'])) {
